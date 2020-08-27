@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: 'Open Sans', sans-serif;
+  color:#222;
+}
+
+body{
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background : url("https://images.unsplash.com/photo-1541288892379-c987c60cd049?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") center center;
+  background-size: cover;
+}
+
+h1{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 0px 0px 35px 0px;
+  font-size: 1.8em;
+}
+
+p{
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 8px 15px;
+  background-color: #ffffff;
+}
+
+
+.container{
+  width: 500px;
+  border: 3px solid #eee;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+form{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+form input{
+  flex: 1;
+  margin-right: 15px;
+}
+input {
+  padding: 8px 15px;
+  outline: 0;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color:#222;
+}
+
+button{
+  padding: 5px 15px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 3px;
+  outline: 0;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+li input{
+  flex: 1;
+}
+
+
+li p{
+  flex: 1;
+}
+
+li p.done {
+  text-decoration: line-through;
+}
+
+li .todo{
+  flex: 0 0 20px;
+  height: 20px;
+  border-radius: 30px;
+  margin-right: 15px;
+  border: 2px solid #333;
+}
+
+li .todo.done{
+    background-color: #333;
+}
+
+li:hover {
+  background: #D6EAF8;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+button.delete {
+  background: #eb2f06;
+}
+
+button.edit {
+  background: #4a69bd;
+}
+
+button.add {
+  background: #2ed573;
+}
+
+
+.fa-check:before {
+    font-size: 18px;
+    color: white;
+}
+
+.fa-trash-alt:before {
+    font-size: 18px;
+    color: white;
+}
+
+.fa-times:before {
+    font-size: 18px;
+    color: white;
+}
+
+.fa-pen:before{
+  font-size: 18px;
+  color: white;
+}
+
+.fa-plus:before{
+  font-size: 18px;
+  color: white;
+}
