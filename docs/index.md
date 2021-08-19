@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To do</title>
+    <script src="https://kit.fontawesome.com/70cecc90b8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ma liste d'invités</h1>
+      <form>
+        <input type="text">
+        <button class="add fas fa-plus"></button>
+      </form>
+      <ul>
+        <!--<li>
+          <span class="todo done"></span>
+          <p>Texte</p>
+          <button>Éditer</button>
+          <button>Supprimer</button>
+        </li>
+        html corresponding to the nodes li that we have created in index.js
+      -->
+      </ul>
+    </div>
+  </body>
+</html>
