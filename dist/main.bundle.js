@@ -97,7 +97,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "*{\n  box-sizing: border-box;\n}\n\nhtml, body{\n  font-family: 'Open Sans', sans-serif;\n  color:#222;\n}\n\nbody{\n  margin: 0;\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background : url(\"https://images.unsplash.com/photo-1541288892379-c987c60cd049?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60\") center center;\n  background-size: cover;\n}\n\nh1{\n  display: flex;\n  flex: 1;\n  justify-content: center;\n  margin: 0px 0px 35px 0px;\n  font-size: 1.8em;\n}\n\np{\n  margin: 0;\n  border: 1px solid #ddd;\n  border-radius: 20px;\n  padding: 8px 15px;\n  background-color: #ffffff;\n}\n\n\n.container{\n  width: 500px;\n  border: 3px solid #eee;\n  border-radius: 20px;\n  padding: 20px;\n  display: flex;\n  flex-direction: column;\n}\nform{\n  display: flex;\n  margin-bottom: 20px;\n}\n\nform input{\n  flex: 1;\n  margin-right: 15px;\n}\ninput {\n  padding: 8px 15px;\n  outline: 0;\n  border: 1px solid #ddd;\n  border-radius: 20px;\n  font-family: 'Open Sans', sans-serif;\n  color:#222;\n}\n\nbutton{\n  padding: 5px 15px;\n  border: 0px;\n  border-radius: 5px;\n  cursor: pointer;\n  margin: 0 3px;\n  outline: 0;\n}\n\nul{\n  padding: 0;\n  list-style: none;\n}\n\nli{\n  display: flex;\n  align-items: center;\n  padding: 10px 0px;\n  cursor: pointer;\n}\n\nli input{\n  flex: 1;\n}\n\n\nli p{\n  flex: 1;\n}\n\nli p.done {\n  text-decoration: line-through;\n}\n\nli .todo{\n  flex: 0 0 20px;\n  height: 20px;\n  border-radius: 30px;\n  margin-right: 15px;\n  border: 2px solid #333;\n}\n\nli .todo.done{\n    background-color: #333;\n}\n\nli:hover {\n  background: #D6EAF8;\n  border-radius: 20px;\n  padding: 10px;\n}\n\nbutton.delete {\n  background: #eb2f06;\n}\n\nbutton.edit {\n  background: #4a69bd;\n}\n\nbutton.add {\n  background: #2ed573;\n}\n\n\n.fa-check:before {\n    font-size: 18px;\n    color: white;\n}\n\n.fa-trash-alt:before {\n    font-size: 18px;\n    color: white;\n}\n\n.fa-times:before {\n    font-size: 18px;\n    color: white;\n}\n\n.fa-pen:before{\n  font-size: 18px;\n  color: white;\n}\n\n.fa-plus:before{\n  font-size: 18px;\n  color: white;\n}\n", ""]);
+exports.push([module.i, "*{\n  box-sizing: border-box;\n}\n\nhtml, body{\n  font-family: 'Open Sans', sans-serif;\n  color:#222;\n}\n\nbody{\n  margin: 0;\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background : url(\"https://images.unsplash.com/photo-1541288892379-c987c60cd049?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60\") center center;\n  background-size: cover;\n  flex-direction: column;\n}\n\nh1{\n  display: flex;\n  flex: 1;\n  justify-content: center;\n  margin: 0px 0px 35px 0px;\n  font-size: 1.8em;\n}\n\np{\n  margin: 0;\n  border: 1px solid #ddd;\n  border-radius: 20px;\n  padding: 8px 15px;\n  background-color: #ffffff;\n}\n\n\n.container{\n  width: 65%;\n  border: 3px solid #eee;\n  border-radius: 20px;\n  padding: 20px;\n  display: flex;\n  flex-direction: column;\n}\nform{\n  display: flex;\n  margin-bottom: 20px;\n}\n\nform input{\n  flex: 1;\n  margin-right: 15px;\n}\ninput {\n  padding: 8px 15px;\n  outline: 0;\n  border: 1px solid #ddd;\n  border-radius: 20px;\n  font-family: 'Open Sans', sans-serif;\n  color:#222;\n}\n\nbutton{\n  padding: 5px 15px;\n  border: 0px;\n  border-radius: 5px;\n  cursor: pointer;\n  margin: 0 3px;\n  outline: 0;\n}\n\nul{\n  padding: 0;\n  list-style: none;\n}\n\nli{\n  display: flex;\n  align-items: center;\n  padding: 10px 0px;\n  cursor: pointer;\n}\n\nli input{\n  flex: 1;\n}\n\n\nli p{\n  flex: 1;\n}\n\nli p.done {\n  text-decoration: line-through;\n}\n\nli .todo{\n  flex: 0 0 20px;\n  height: 20px;\n  border-radius: 30px;\n  margin-right: 15px;\n  border: 2px solid #333;\n}\n\nli .todo.done{\n    background-color: #333;\n}\n\nli:hover {\n  background: #D6EAF8;\n  border-radius: 20px;\n  padding: 10px;\n}\n\nbutton.delete {\n  background: #eb2f06;\n}\n\nbutton.edit {\n  background: #4a69bd;\n}\n\nbutton.add {\n  background: #2ed573;\n}\n\n\n.fa-check:before {\n    font-size: 18px;\n    color: white;\n}\n\n.fa-trash-alt:before {\n    font-size: 18px;\n    color: white;\n}\n\n.fa-times:before {\n    font-size: 18px;\n    color: white;\n}\n\n.fa-pen:before{\n  font-size: 18px;\n  color: white;\n}\n\n.fa-plus:before{\n  font-size: 18px;\n  color: white;\n}\n\n.timing{\n  background: #303030;\n  color: #fff;\n  margin: 5rem 0 0 0;\n  border-radius: 20px;\n  width: 65%;\n  padding: 1rem 0 1rem 0;\n  text-align: center;\n  font-weight: 500;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -689,7 +689,23 @@ promesse.then( /*#__PURE__*/function () {
   };
 }())["catch"](function (err) {
   return console.log(err);
-});
+}); // Date : REVOIR LE INNERHTML
+
+var addTiming = function addTiming() {
+  var time = document.querySelector(".timing");
+  var date = new Date();
+  var n = date.getMonth();
+  var g = date.getDate();
+  var h = date.getHours();
+  var m = date.getMinutes();
+  var month = ["jan", "fev", "mars", "avril", "mai", "juin", "juillet", "aout", "sept", "oct", "nov", "dec"];
+  var a = month[n];
+  var textTime = "Nous sommes le ".concat(g, " ").concat(a, " et il est ").concat(h, "h").concat(m);
+  time.innerHTML = textTime;
+  console.log("affiche toi");
+};
+
+addTiming();
 
 /***/ }),
 

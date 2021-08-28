@@ -30,6 +30,12 @@ module.exports = {
   stats: "minimal",
   devtool: "source-map",
   mode: "development",
+  /*devServer: {
+
+     static: path.resolve(__dirname, 'dist'),
+     open: true,
+       port: 4000
+  }*/
   devServer: {
     open: false,
     contentBase: "./dist",

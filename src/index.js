@@ -1,10 +1,12 @@
 import "./style.css";
 
+const fetch = require('node-fetch');
 
 const ul = document.querySelector("ul");
 
 const form = document.querySelector("form");
 const input = document.querySelector("form > input");
+
 
 
 const todos = [
@@ -197,3 +199,41 @@ promesse.then
   }
   })
   .catch(err => console.log(err));
+
+  // Date : REVOIR LE INNERHTML
+
+  const addTiming = () => {
+    const time = document.querySelector(".timing");
+    let date = new Date();
+    let n = date.getMonth();
+    let g = date.getDate();
+    let h = date.getHours();
+    let m = date.getMinutes();
+    let month = ["jan", "fev", "mars", "avril", "mai", "juin", "juillet", "aout", "sept", "oct", "nov", "dec"];
+    let a = month[n];
+    const textTime = `Nous sommes le ${g} ${a} et il est ${h}h${m}`;
+
+    time.innerHTML = textTime;
+    console.log("affiche toi");
+  }
+  addTiming();
+
+  /*window.addEventListener('DOMContentLoaded', () => {
+ const addTiming = () => {
+   console.log("affiche toi");
+   const time = document.querySelector(".timing");
+   let date = new Date();
+   let n = date.getMonth();
+   let g = date.getDate();
+   let h = date.getHours();
+   let m = date.getMinutes();
+   let month = ["jan", "fev", "mars", "avril", "mai", "juin", "juillet", "aout", "sept", "oct", "nov", "dec"];
+   let a = month[n];
+   const textTime = `Nous sommes le ${g} ${a} et il est ${h}h${m}`;
+
+   time.innerHTML = textTime;
+   console.log("affiche toi");
+ }
+
+ addTiming();
+});*/
