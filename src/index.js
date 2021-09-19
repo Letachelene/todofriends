@@ -1,6 +1,9 @@
 import "./style.css";
 
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
+
+//const fetch = require('node-fetch');
+
 
 const ul = document.querySelector("ul");
 
@@ -230,10 +233,8 @@ promesse.then
    let month = ["jan", "fev", "mars", "avril", "mai", "juin", "juillet", "aout", "sept", "oct", "nov", "dec"];
    let a = month[n];
    const textTime = `Nous sommes le ${g} ${a} et il est ${h}h${m}`;
-
    time.innerHTML = textTime;
    console.log("affiche toi");
  }
-
  addTiming();
 });*/
